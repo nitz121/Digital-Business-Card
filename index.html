@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Business Card - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Anchor for light mode target -->
+    <div id="light" style="position: absolute; top: 0;"></div>
+
+    <!-- Page Wrapper -->
+    <div class="page-wrapper">
+        
+        <!-- Theme switch toggle -->
+        <div class="theme-switch-wrapper">
+            <a href="#light" class="theme-switch dark-link">
+                <span class="text light-text">Dark Mode</span>
+                <span class="text dark-text">Light Mode</span>
+            </a>
+            <a href="#" class="theme-switch light-link">
+                <span class="text light-text">Dark Mode</span>
+                <span class="text dark-text">Light Mode</span>
+            </a>
+        </div>
+
+        <main class="card-container">
+            
+            <!-- Header -->
+            <header class="profile-header">
+                <div class="profile-img-container">
+                    <img src="images/profile.jpg" alt="Profile Picture" class="profile-img">
+                </div>
+                <div class="profile-header-text">
+                    <h1>Nitzan Rozner</h1>
+                    <h2>Cloud Infrastructure & Automation Specialist</h2>
+                </div>
+            </header>
+
+            <!-- navigation bar -->
+            <nav class="nav-bar">
+                <a href="index.html" class="nav-link active dark-link">About</a>
+                <a href="index.html#light" class="nav-link active light-link">About</a>
+                <a href="projects.html" class="nav-link dark-link">Projects & Expertise</a>
+                <a href="projects.html#light" class="nav-link light-link">Projects & Expertise</a>
+            </nav>
+
+            <!-- about -->
+            <section class="content-section">
+                <h3 class="section-title">About Me</h3>
+                <p>
+                    DevOps Team Lead with extensive experience in architecting, automating, and managing enterprise cloud infrastructure. 
+                    Specialized in leading engineering teams, implementing robust CI/CD practices, Infrastructure as Code, and high-availability systems.
+                </p>
+            </section>
+
+            <!-- Quick Specs -->
+            <section class="highlights-grid">
+                <div class="highlight-card">
+                    <h4>Architecture</h4>
+                    <p>Cloud & Hybrid Solutions</p>
+                </div>
+                <div class="highlight-card">
+                    <h4>Automation</h4>
+                    <p>IaC & CI/CD Pipelines</p>
+                </div>
+                <div class="highlight-card">
+                    <h4>Leadership</h4>
+                    <p>DevOps & System Engineering</p>
+                </div>
+            </section>
+
+            <!-- contact info -->
+            <footer class="contact-section">
+                <h3 class="section-title">Contact Information</h3>
+                <ul class="contact-list">
+                    <li><span>Email:</span> <a href="mailto:example@email.com">nitzan@email.com</a></li>
+                    <li><span>Phone:</span> <a href="tel:+972501234567">+972 50-123-4567</a></li>
+                </ul>
+
+                <div class="social-links">
+                    <a href="https://github.com/nitz121" target="_blank" rel="noopener noreferrer" class="btn">GitHub</a>
+                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="btn">LinkedIn</a>
+                </div>
+            </footer>
+
+        </main>
+    </div>
+
+</body>
+</html>
